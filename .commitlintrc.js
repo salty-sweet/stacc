@@ -20,7 +20,7 @@ module.exports = {
         { value: 'revert', name: 'revert:   Reverts a previous commit', emoji: ':rewind:' }
       ],
       useEmoji: false,
-      scopes: ['ui','client'],
+      scopes: ['ui','stacc','client','deps','security',],
       allowBreakingChanges: ['feat', 'fix'],
       breaklineNumber: 50,
       breaklineChar: '|',
